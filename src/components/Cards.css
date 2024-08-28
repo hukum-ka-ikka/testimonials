@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40vw;
+    position: relative;
+    gap: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underline {
+    background-color: #6542c4;
+    height: 0.5vh;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.image-div {
+    position: absolute;
+    height: 25%;
+    width: 17%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 27px;
+    box-shadow: 5px -5px #6542c4;
+    z-index: 1;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job {
+    color: #c2bdef;
+}
+
+.quotes {
+    font-size: 10px;
+    color: #6542c4;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1x solid black;
+    padding: 30px;
+    min-height: 50vh;
+    background-color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-div {
+    display: flex;
+    gap: 20px;
+}
+
+.arrow {
+    color: #6542c4;
+    font-size: 25px;
+    background-color: white;
+    border: 0px;
+}
+
+.random-button {
+    background-color: #6542c4;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    width: 20vh;
+}
+
+.arrow:hover {
+    color: #4f3598;
+}
+
+.arrow:active {
+    color: #4f3598;
+}
+
+.random-button:hover {
+    background-color: #4f3598;
+}
+
+.random-button:active {
+    background-color: #4f3598;
+}
